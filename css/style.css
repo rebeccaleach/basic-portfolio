@@ -1,0 +1,39 @@
+/* BASIC PORTFOLIO */
+
+/**** UNIVERSAL STYLES ****/
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	background: 
+		linear-gradient(
+		rgba(102, 102, 102, 0.75),
+		rgba(102, 102, 102, 0.75)
+		),
+		url(../images/mars-landscape.jpg);
+	background-position: top-right;
+	background-size: auto 150%;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	text-align: center;
+
+}
+
+header h1,
+header h2 {
+	margin: 0 auto;
+}
+
+header h1 {
+	padding-top: 120px;
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.bio-photo {
+	margin-top: 1em;
+	width: 150px;
+	border-radius: 100%;
+}
