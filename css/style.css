@@ -6,34 +6,55 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
 header {
 	background: 
 		linear-gradient(
-		rgba(102, 102, 102, 0.75),
-		rgba(102, 102, 102, 0.75)
+		rgba(255, 179, 128, 0.5),
+		rgba(255, 179, 128, 0.5)
 		),
 		url(../images/mars-landscape.jpg);
 	background-position: top-right;
-	background-size: auto 150%;
+	background-size: auto 800px;
 	background-repeat: no-repeat;
-	min-height: 400px;
+	min-height: 800px;
 	text-align: center;
 
 }
 
+/*.header {
+	background: 
+		linear-gradient(
+		rgba(150, 0, 0, 0.5),
+		rgba(150, 0, 0, 0.5)
+		);
+}*/
+
 header h1,
 header h2 {
 	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 header h1 {
-	padding-top: 120px;
-	font-size: 3rem;
+	padding-top: 150px;
+	padding-bottom: 10px;
+	font-size: 14vw;
 	font-weight: 300;
+	text-shadow: 0 0 10px #ddd;
+}
+
+header h2 {
+	text-shadow: 0 0 10px #aaa;
 }
 
 .bio-photo {
-	margin-top: 1em;
+	margin-top: 2em;
 	width: 150px;
 	border-radius: 100%;
 }
