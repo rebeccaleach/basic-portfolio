@@ -1,60 +1,117 @@
 /* BASIC PORTFOLIO */
 
-/**** UNIVERSAL STYLES ****/
+/**** LAYOUT STYLES ****/
 
 body {
-	font-family: 'Raleway', sans-serif;
+  background-image: url('../images/wet-snow.png');
+  background-repeat: repeat;
+	color: #777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.container {
-	margin: 0 auto;
-	width: 90%;
+a,
+a:link,
+a:active,
+a:visited {
+  color: #777;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 header {
-	background: 
-		linear-gradient(
-		rgba(255, 179, 128, 0.5),
-		rgba(255, 179, 128, 0.5)
-		),
-		url(../images/mars-landscape.jpg);
-	background-position: top-right;
-	background-size: auto 800px;
-	background-repeat: no-repeat;
-	min-height: 800px;
-	text-align: center;
-
+	background-color: white;
+  border-bottom: 2px solid #ccc;
 }
 
-/*.header {
-	background: 
-		linear-gradient(
-		rgba(150, 0, 0, 0.5),
-		rgba(150, 0, 0, 0.5)
-		);
-}*/
-
-header h1,
-header h2 {
-	margin: 0 auto;
-	padding-left: 5%;
-	padding-right: 5%;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  font-weight: bold;
 }
 
-header h1 {
-	padding-top: 150px;
-	padding-bottom: 10px;
-	font-size: 14vw;
-	font-weight: 300;
-	text-shadow: 0 0 10px #ddd;
+.headline {
+  padding: 1em 0.5em;
+	background-color: #4aaaa5;
+	color: white;
+  text-align: center;
+  font-size: 2em;
 }
 
-header h2 {
-	text-shadow: 0 0 10px #aaa;
+.subhead {
+  margin-bottom: 1em;
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc;
+  color: #4aaaa5;
+  font-size: 1.5em;
 }
 
-.bio-photo {
-	margin-top: 2em;
-	width: 150px;
-	border-radius: 100%;
+nav ul {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+nav li {
+  margin: 1em 0;
+  padding: 0 0.5em;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+}
+
+nav li:last-child {
+  border: none;
+}
+
+main {
+  padding: 0 1em 2em;
+  background-color: white;
+  line-height: 2em;
+}
+
+.sidebar {
+  padding: 0 1em 2em;
+  background-color: white;
+}
+
+.sidehead {
+  margin-bottom: 1em;
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc;
+  color: #4aaaa5;
+  font-size: 1.3em;
+}
+
+.sidebar li {
+  display: inline;
+}
+
+.sidebar img {
+  width: 32%;
+}
+
+footer {
+  margin: 0.5em auto;
+  padding: 5em 1em;
+  background-color: #666;
+  border-top: 5px solid #4aaaa5;
+  color: #ccc;
+  text-align: center;
+  font-size: 0.6em;
+}
+
+
+/**** CONTENT STYLES ****/
+
+.bio-pic {
+  margin: 0 auto 1.5em;
+  width: 100%;
+  display: block;
 }
